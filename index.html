@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <img src="myphoto.jpg" alt="Your Photo">
+        <ul class="menu">
+            <li onclick="showSection('home')">Home</li>
+            <li onclick="showSection('about')">About</li>
+            <li onclick="showSection('projects')">Projects</li>
+            <li onclick="showSection('contact')">Contact</li>
+        </ul>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Content Box -->
+    <div class="main-content">
+        <div id="home" class="content active">
+            <div class="box">
+                <img src="myphoto.jpg" alt="Your Photo" class="profile-pic">
+                <div class="intro-text">
+                    <h1>Harshad Raju Kale</h1>
+                    <p>Welcome to my portfolio website!</p>
+                    <a href="resume.pdf" class="resume-btn" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="content">
+            <div class="box">
+                <h1>About Me</h1>
+                <p>Hello! I'm <strong>Harshad kale</strong>, a passionate and creative web developer with expertise in
+                    front-end and back-end development. I have over X years of experience in building dynamic,
+                    responsive websites and web applications using modern technologies such as HTML, CSS, JavaScript,
+                    and various frameworks like React, Node.js, and more.</p>
+                <p>When I’m not coding, you’ll find me exploring the latest web development trends, working on
+                    open-source projects, or learning new tools to stay ahead in the industry.</p>
+
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Node.js, Express.js</li>
+                    <li>MongoDB, MySQL</li>
+                    <li>Git & GitHub</li>
+                </ul>
+
+                <h2>Education</h2>
+                <p><strong>Bachelor’s in Computer application</strong> - SRTMUN University</p>
+
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Certified Web Developer - pmkvy</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="projects" class="content">
+            <div class="box">
+                <h1>My Projects</h1>
+                <p>Here are a few of the projects I've worked on recently. These projects showcase my skills in web
+                    development, problem-solving, and creativity. Feel free to check them out!</p>
+
+                <h2>Project 1: Portfolio Website</h2>
+                <p>
+                    <strong>Description:</strong> A personal portfolio website to showcase my work, skills, and
+                    experience. Built using HTML, CSS, and JavaScript, it features responsive design and dynamic content
+                    switching.
+                </p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://yourwebsite.com" target="_blank">View Project</a>
+
+                <h2>Project 2: E-commerce Website</h2>
+                <p>
+                    <strong>Description:</strong> A fully functional e-commerce website built with React and Node.js,
+                    allowing users to browse products, add items to their cart, and securely checkout. Integrated with
+                    Stripe for payment processing.
+                </p>
+                <p><strong>Technologies:</strong> React, Node.js, MongoDB, Stripe API</p>
+                <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+
+               
+            </div>
+        </div>
+
+        <div id="contact" class="content">
+            <div class="box">
+                <h1>Contact Me</h1>
+                <p>If you'd like to get in touch, feel free to contact me via email, phone, or by connecting with me on
+                    social media. I'm always open to discussing new projects, creative ideas, or opportunities to be a
+                    part of your visions.</p>
+
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Email:</strong> kaletechservices.com</li>
+                    <li><strong>Phone:</strong> 8788428240</li>
+                    <li><strong>Location:</strong> shivaji nagar basmath road parbhani 431401</li>
+                </ul>
+
+                <h2>Social Media</h2>
+                <p>You can also find me on these platforms:</p>
+                <ul>
+                    <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/yourusername" target="_blank">Instagram</a></li>
+                </ul>
+
+                <h2>Let's Collaborate</h2>
+                <p>I am always open to new ideas, collaborations, and exciting projects. Let's connect and create
+                    something amazing together!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
